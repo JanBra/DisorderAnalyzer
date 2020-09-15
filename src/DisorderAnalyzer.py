@@ -28,7 +28,7 @@ REGIONMINLEN = 5
 #if os.path.isfile(os.path.join(os.path.dirname(__file__),"datastructure.pkl")):
 def prepareMobiDBJSON():
   #Füge Komma in jede Zeile ein, um json-konform zu werden; Füge am Anfang eine Zeile mit '[' ein und am Ende eine Zeile mit ']'
-  if os.path.isfile(os.path.join(os.path.dirname(__file__),"disorder_UP000005630.mjson")):
+  if os.path.isfile(os.path.join(os.path.dirname(__file__),"disorder_UP000005640.mjson")):
     with open(os.path.join(os.path.dirname(__file__),'disorder_UP000005640.mjson','r')) as istr:
       with open(os.path.join(os.path.dirname(__file__),'disorder_UP000005640.json','w+')) as ostr:
           for i,line in enumerate(istr):
